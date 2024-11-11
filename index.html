@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ingressos</title>
+</head>
+<body>
+   <header><h1>COMPRE SEUS INGRESSOS PARA A BOATE DO CEVERINO!</h1></header>
+<div class="bloco"><h3>Mas antes, confirme sua idade.</h3>
+<div class="formulario">
+    <p>Por favor, insira sua idade:</p>
+    <input type="number" id="idadeInput">
+    <button onclick="verificarIdade()">verificar</button>
+</div>
+</div>
+<script>
+
+function verificarIdade(){
+const idade =parseInt( document.getElementById("idadeInput").value);
+if (idade >= 18){
+
+window.location.href = "meusite.html"} else{
+    window.location.href = "menor.html"
+}
+}
+
+</script>
+
+
+
+
+</body>
+</html>

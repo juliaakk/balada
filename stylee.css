@@ -1,0 +1,21 @@
+body{
+    background: url(https://cdn.pixabay.com/photo/2022/09/03/09/55/woman-7429200_1280.jpg);
+}
+
+h1{
+    text-align: center;
+}
+header{
+    background-color: #712fafa1;
+    top: 0;
+    margin: -2% -8px;
+}
+
+p{
+    background-color: #c9bfd1c9;
+    padding: 16px 17px;
+    margin: 9%;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+}
